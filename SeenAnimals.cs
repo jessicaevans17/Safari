@@ -1,3 +1,4 @@
+using System;
 namespace Safari
 {
 
@@ -7,6 +8,6 @@ namespace Safari
     public string Species { get; set; }
     public int CountOfTimesSeen { get; set; }
     public string LocationOfLastSeen { get; set; }
-    public DateTime LastSeenTime { get; set; }
+    public DateTime TimeLastSeen { get; set; }
   }
 }
